@@ -14,5 +14,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+
+        $statuses = [
+            ['name' => 'todo'],
+            ['name' => 'inprogress'],
+            ['name' => 'completed']
+        ];
+        \DB::table('statuses')->insert($statuses);
     }
 }

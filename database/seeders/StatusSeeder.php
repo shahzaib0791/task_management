@@ -13,11 +13,6 @@ class StatusSeeder extends Seeder
      */
     public function run()
     {
-        $statuses = [
-            ['name' => 'todo'],
-            ['name' => 'inprogress'],
-            ['name' => 'completed']
-        ];
-        \DB::table('statuses')->insert($statuses);
+        
     }
 }
