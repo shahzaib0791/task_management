@@ -15,6 +15,8 @@ Go to the folder application using `cd` command on your cmd or terminal
 
 Install dependencies via composer command `Composer install`
 
+Install dependencies via npm command `npm install`
+
 
 ## Step 4:
 
